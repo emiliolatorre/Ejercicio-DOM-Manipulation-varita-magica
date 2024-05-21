@@ -45,7 +45,6 @@ for (let i=0; i<imagenes.length; i++) {
         event.target.src = 'assets/abracadabra.gif';
 })}
 
-
 //3.2 Párrafos: Cambia el color del texto y el de fondo por uno cualquiera.
 for (let i=0; i<parrafos.length; i++) {
     parrafos[i].addEventListener('mouseenter', function(event) {
@@ -60,3 +59,5 @@ for (let i=0; i>articles.length; i++) {
         event.target.style.backgroundColor = 'grey';
     })
 }
+
+//PARA QUE luego de pasar el raton se vuelva a aplicar la imagen o color de antes 'mouseleave'
